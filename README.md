@@ -12,7 +12,8 @@ An admin fetches photos from the church Facebook page. The app detects each face
     python seed_demo.py
     python -m streamlit run app.py --server.fileWatcherType none
 
-`seed_demo.py` creates a demo database with fake members. YuNet face detection needs `face_detection_yunet_2023mar.onnx` from the OpenCV Zoo in the project folder.
+`seed_demo.py` creates a demo database with eight invented members and six weeks of attendance. Five of them carry placeholder embeddings (random vectors, not faces) so the register shows both enrolled and not-enrolled states. They will not match any real face.
+YuNet face detection needs `face_detection_yunet_2023mar.onnx` from the OpenCV Zoo in the project folder.
 
 ## Results so far
 
