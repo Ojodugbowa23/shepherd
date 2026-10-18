@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+church_register.db
+church_register_backup.db
+member_photos/
+page_photos/
+detected_faces/
+test_photos/
+.env
+.streamlit/secrets.toml
+enroll_church.py
+test_group_names.py
+test_singles.py
