@@ -258,10 +258,7 @@ if demo_enabled():
 top = st.container()
 
 with st.sidebar:
-    st.subheader("Service")
     service_date = st.date_input("Service date", value=last_sunday())
-    st.markdown('<div class="note">Recognition suggests and a person confirms. '
-                'Messages are a dry run.</div>', unsafe_allow_html=True)
 day = service_date.isoformat()
 
 tab_fb, tab_members, tab_hand, tab_services, tab_follow = st.tabs(
